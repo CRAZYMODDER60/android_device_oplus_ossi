@@ -4,4 +4,8 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-export COMMON_LUNCH_CHOICES := omni_ossi-eng omni_ossi-user omni_ossi-userdebug
+# vendorsetup.sh
+add_lunch_combo omni_ossi-eng
+add_lunch_combo omni_ossi-user
+add_lunch_combo omni_ossi-userdebug
+
