@@ -8,7 +8,4 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_ossi.mk
 
-COMMON_LUNCH_CHOICES := \
-    omni_ossi-user \
-    omni_ossi-userdebug \
-    omni_ossi-eng
+COMMON_LUNCH_CHOICES := omni_ossi-eng omni_ossi-user omni_ossi-userdebug
